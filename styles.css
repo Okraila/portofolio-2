@@ -203,6 +203,7 @@ body {
 .services__item {
     position:relative;
     padding-top:150px;
+    background-repeat:no-repeat;
 }
 
 .services__item::before{
@@ -210,8 +211,19 @@ body {
     position:absolute;
     width:60px;
     height:60px;
-    repeat:no-repeat;
     top:0;
     left:0;
 }
+
+.projects__list {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:45px;
+}
+
+.projects__image{
+    width: 360px;
+    height: 360px;
+}
+
 
