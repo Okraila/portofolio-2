@@ -215,6 +215,14 @@ body {
     left:0;
 }
 
+.projects {
+    margin-bottom:247px;
+}
+
+.projects__title {
+    left:405px;
+}
+
 .projects__list {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -224,6 +232,60 @@ body {
 .projects__image{
     width: 360px;
     height: 360px;
+}
+
+.ratings__list {
+    display:flex;
+    gap:16px;
+}
+
+.ratings__item {
+    position:relative;
+    background-color:#F6F6F8;
+    width: 280px;
+    height: 287px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    background-repeat:no-repeat;
+}
+
+.ratings__item::before{
+    background-repeat:no-repeat;
+    position:absolute;
+    content:"";
+    width:97px;
+    height:80px;
+    top: 50px;
+    left: 50%;
+    transform:translateX(-50%);
+    background-image:url(./ratingsicon1.png)
+}
+
+.ratings__item__2::before{
+    background-image:url(./ratingsicon2.png)
+}
+
+.ratings__item__3::before{
+    background-image:url(./ratingsicon3.png)
+}
+
+.ratings__item__4::before{
+    background-image:url(./ratingsicon4.png)
+}
+
+.ratings__text {
+    padding-top:150px;
+    margin-left:49px;
+}
+
+.ratings__number {
+    font-size: 44px;
+    color: #333;
+    padding-top:20px;
+    margin-left:100px;
+    font-weight: 600;
+    line-height: 100%;
 }
 
 
