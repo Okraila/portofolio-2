@@ -259,19 +259,19 @@ body {
     top: 50px;
     left: 50%;
     transform:translateX(-50%);
-    background-image:url(./ratingsicon1.png)
+    background-image:url(./img/ratingsicon1.png)
 }
 
 .ratings__item__2::before{
-    background-image:url(./ratingsicon2.png)
+    background-image:url(./img/ratingsicon2.png)
 }
 
 .ratings__item__3::before{
-    background-image:url(./ratingsicon3.png)
+    background-image:url(./img/ratingsicon3.png)
 }
 
 .ratings__item__4::before{
-    background-image:url(./ratingsicon4.png)
+    background-image:url(./img/ratingsicon4.png)
 }
 
 .ratings__text {
@@ -288,4 +288,84 @@ body {
     line-height: 100%;
 }
 
+/* Починається секція contacts */
 
+.contacts {
+    margin-bottom:140px;
+}
+
+.contacts__inner {
+    display:flex;
+    justify-content:space-between;
+}
+
+.contacts__info {
+    max-width: 530px;
+    width: 100%;
+}
+
+.contacts__text{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.contacts__link {
+    display:block;
+    margin-bottom:15px;
+    color:#2352DE;
+}
+
+.contacts__list {
+    display:flex;
+    gap:20px;
+}
+
+.contacts__wrapper {
+    display:flex;
+    gap:30px;
+    margin-bottom: 30px;
+}
+
+.contacts__input-title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contacts__input {
+    padding: 15px;
+    background-color: #F6F6F8;
+    border:none;
+}
+
+.contacts__input::placeholder {
+    font-size: 14px;
+    color:#9C9CAB;
+}
+
+.contacts__textarea {
+    padding: 15px;
+    background-color: #F6F6F8;
+    border:none;
+    width:100%;
+    resize: vertical;
+    min-height:115px;
+    max-height: 250px;
+    margin-bottom: 30px;
+}
+
+.contacts__button {
+    border: none;
+    background-color: #2352DE;
+    padding: 12px 24px;
+    color:white;
+    cursor: pointer;
+}
+
+.contacts__button:hover{
+    background-color: #238ade;
+}
+
+.contacts__button:active{
+    background-color: #2623de;
+}
